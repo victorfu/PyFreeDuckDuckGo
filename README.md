@@ -8,7 +8,7 @@ This is a Python implementation of [FreeDuckDuckGo](https://github.com/missuo/Fr
 
 ```bash
 mkdir PyFreeDuckDuckGo && cd PyFreeDuckDuckGo
-wget -O compose.yaml https://raw.githubusercontent.com/victorfu/PyFreeDuckDuckGo/main/compose.yaml
+curl -o compose.yaml https://raw.githubusercontent.com/victorfu/PyFreeDuckDuckGo/master/compose.yaml
 docker compose up -d
 ```
 
