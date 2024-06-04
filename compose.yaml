@@ -1,6 +1,6 @@
 services:
-  FreeDuckDuckGo:
-    image: ghcr.io/victorfu/pyfreeduckduckgo:latest
+  PyFreeDuckDuckGo:
+    image: victorfu/pyfreeduckduckgo:latest
     restart: always
     ports:
       - "3456:3456"
