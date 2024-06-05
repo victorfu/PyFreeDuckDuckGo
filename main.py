@@ -31,7 +31,7 @@ class DuckDuckGoResponse(BaseModel):
 @app.get("/")
 async def read_root():
     return {
-        "message": "Hello! Thank you for using PyFreeDuckDuck. Made by Victor Fu. Repo: https://github.com/victorfu/PyFreeDuckDuck"
+        "message": "Hello! Thank you for using PyFreeDuckDuckGo. Made by Victor Fu. Repo: https://github.com/victorfu/PyFreeDuckDuckGo"
     }
 
 
