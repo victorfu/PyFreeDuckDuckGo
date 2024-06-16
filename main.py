@@ -38,7 +38,7 @@ async def read_root():
 @app.post("/v1/chat/completions")
 async def chat_completions(request: OpenAIRequest):
     headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0",
+        "User-Agent": "PostmanRuntime/7.39.0",
         "Accept": "text/event-stream",
         "Accept-Language": "de,en-US;q=0.7,en;q=0.3",
         "Accept-Encoding": "gzip, deflate, br",
