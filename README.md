@@ -18,7 +18,7 @@ docker compose up -d
 curl http://127.0.0.1:3456/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-4o-mini",
     "messages": [
       {
         "role": "user",
