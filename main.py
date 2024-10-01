@@ -64,7 +64,7 @@ async def chat_completions(request: OpenAIRequest):
         vqd4 = resp.headers.get("x-vqd-4")
 
     payload = {
-        "model": "gpt-3.5-turbo-0125",
+        "model": "gpt-4o-mini",
         "messages": [message.dict() for message in request.messages],
     }
 
@@ -129,7 +129,7 @@ async def list_models():
         "object": "list",
         "data": [
             {
-                "id": "gpt-3.5-turbo-0125",
+                "id": "gpt-4o-mini",
                 "object": "model",
                 "created": 1692901427,
                 "owned_by": "system",
